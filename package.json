@@ -1,0 +1,29 @@
+{
+  "name": "rest-5min",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "./run.sh",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gforien/rest-5min.git"
+  },
+  "author": "Gabriel FORIEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gforien/rest-5min/issues"
+  },
+  "homepage": "https://github.com/gforien/rest-5min#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "expect": "^25.4.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.10",
+    "sinon": "^9.0.2"
+  }
+}
