@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "./run.sh",
-    "test": "mocha",
+    "test": "mocha --exit",
     "devtest": "./test.sh"
   },
   "repository": {
