@@ -22,7 +22,7 @@ app
       console.log(req.method + ' ' + req.url);
     }
     next();
-  })
+  });
 
 
 /****************************************
@@ -113,4 +113,4 @@ app
 
 module.exports = app.listen(PORT, () => {
   console.log("Listening on port "+PORT);
-})
+});

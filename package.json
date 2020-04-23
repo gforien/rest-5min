@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "./run.sh",
-    "test": "mocha"
+    "test": "mocha",
+    "devtest": "./test.sh"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/gforien/rest-5min#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "expect": "^25.4.0",
     "express": "^4.17.1",
     "mocha": "^7.1.1",
