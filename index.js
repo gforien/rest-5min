@@ -51,6 +51,12 @@ const Users = mongoose.model(
  *        REST API        *
  **************************/
 app
+
+.get('/', (req, res) => {
+  res.status(200).send('Bravo ! You made it to the front page');
+})
+
+
 .get('/api/users', (req, res) => {
   Users
     .find()
